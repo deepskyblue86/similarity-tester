@@ -2,7 +2,7 @@ name: Build image
 on:
   push:
     branches: [main]
-    paths: ["Dockerfile", "similarity-tester.conf"]
+    paths: ["Dockerfile"]
 
 jobs:
   build-image:
